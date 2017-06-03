@@ -10,6 +10,7 @@ library base64url;
 import 'dart:convert';
 
 import 'package:crypto/crypto.dart';
+import 'package:cryptoutils/cryptoutils.dart';
 
 
 final _EQ_RE = new RegExp(r'=');
